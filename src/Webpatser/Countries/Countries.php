@@ -28,7 +28,7 @@ class Countries extends Model {
      */
     public function __construct()
     {
-        $this->table = \Config::get('countries.table_name');
+        $this->table = 'countries';
     }
     
     /**
